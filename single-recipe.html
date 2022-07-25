@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe</title>
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/50e28b03e6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--  css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div class="links-container">
+          <a href="index.html" class="nav-link">home</a>
+          <a href="about.html" class="nav-link">about</a>
+          <a href="tags.html" class="nav-link">tags</a>
+          <a href="recipes.html" class="nav-link">recipes</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main -->
+    <main class="main">
+      <div class="single-recipe">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/recipe-4.jpeg"
+            alt="banana pancakes"
+            class="img single-recipe-img"
+          />
+
+          <article>
+            <h2>banana pancakes</h2>
+            <p class="recipe-disc">
+              Shabby chic humblebrag banh mi bushwick, banjo kale chips
+              meggings. Cred selfies sartorial, cloud bread disrupt blue bottle
+              seitan. Dreamcatcher tousled bitters, health goth vegan venmo
+              whatever street art lyft shabby chic pitchfork beard. Drinking
+              vinegar poke tbh, iPhone coloring book polaroid truffaut tousled
+              ramps pug trust fund letterpress. Portland four loko austin
+              chicharrones bitters single-origin coffee. Leggings letterpress
+              occupy pour-over.
+            </p>
+
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>30min</p>
+              </article>
+
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>30min</p>
+              </article>
+
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>6 servings</p>
+              </article>
+            </div>
+
+            <div class="recipe-tags">
+              Tags: <a href="./tag-templete.html">beef</a>
+              <a href="./tag-templete.html">breakfast</a>
+              <a href="./tag-templete.html">pancakes</a>
+              <a href="./tag-templete.html">food</a>
+            </div>
+          </article>
+        </section>
+
+        <section class="recipe-content">
+          <article class="instructions">
+            <h4>instructions</h4>
+            <div class="steps">
+              <header>
+                <h5>step 1</h5>
+                <div class="border"></div>
+              </header>
+              <p>
+                I'm baby mustache man braid fingerstache small batch venmo
+                succulents shoreditch.
+              </p>
+            </div>
+            <div class="steps">
+              <header>
+                <h5>step 2</h5>
+                <div class="border"></div>
+              </header>
+              <p>
+                Pabst pitchfork you probably haven't heard of them, asymmetrical
+                seitan tousled succulents wolf banh mi man bun bespoke selfies
+                freegan ethical hexagon.
+              </p>
+            </div>
+            <div class="steps">
+              <header>
+                <h5>step 3</h5>
+                <div class="border"></div>
+              </header>
+              <p>
+                Polaroid iPhone bitters chambray. Cornhole swag kombucha
+                live-edge.
+              </p>
+            </div>
+          </article>
+
+          <article class="ingredients">
+            <div>
+              <h4>ingredients</h4>
+              <p>1 1/2 cups dry pancake mix</p>
+              <p>1/2 cup flax seed meal</p>
+              <p>1 cup skim milk</p>
+            </div>
+
+            <div class="tools">
+              <h4>tools</h4>
+              <p>Hand Blender</p>
+              <p>Large Heavy Pot With Lid</p>
+              <p>Measuring Spoons</p>
+              <p>Measuring Cups</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Simply Recipes</span> Built by
+        <a href="#">Sharan</a>
+      </p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

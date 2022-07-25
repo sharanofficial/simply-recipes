@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tag Templete</title>
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/50e28b03e6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--  css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div class="links-container">
+          <a href="index.html" class="nav-link">home</a>
+          <a href="about.html" class="nav-link">about</a>
+          <a href="tags.html" class="nav-link">tags</a>
+          <a href="recipes.html" class="nav-link">recipes</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main -->
+    <main class="main">
+      <div>
+        <h4>beef</h4>
+      </div>
+      <div class="recipe-list">
+        <a href="./single-recipe.html" class="recipe">
+          <img
+            src="./assets/recipes/recipe-1.jpeg"
+            alt="food"
+            class="img recipe-img"
+          />
+          <h5>carne asada</h5>
+          <p>prep : 15min | cook : 5min</p>
+        </a>
+
+        <a href="./single-recipe.html" class="recipe">
+          <img
+            src="./assets/recipes/recipe-2.jpeg"
+            alt="food"
+            class="img recipe-img"
+          />
+          <h5>greek ribs</h5>
+          <p>prep : 15min | cook : 5min</p>
+        </a>
+
+        <a href="./single-recipe.html" class="recipe">
+          <img
+            src="./assets/recipes/recipe-3.jpeg"
+            alt="food"
+            class="img recipe-img"
+          />
+          <h5>vegetable soup</h5>
+          <p>prep : 15min | cook : 5min</p>
+        </a>
+
+        <a href="./single-recipe.html" class="recipe">
+          <img
+            src="./assets/recipes/recipe-4.jpeg"
+            alt="food"
+            class="img recipe-img"
+          />
+          <h5>banana pancakes</h5>
+          <p>prep : 15min | cook : 5min</p>
+        </a>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Simply Recipes</span> Built by
+        <a href="#">Sharan</a>
+      </p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
